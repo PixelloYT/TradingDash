@@ -28,6 +28,8 @@ const translations = {
 
 let currentLang = localStorage.getItem('lang') || 'pl';
 let currentTheme = localStorage.getItem('theme') || 'dark';
+let currentCurrency = localStorage.getItem('currency') || 'PLN';
+const USD_TO_PLN = 3.95;
 
 // Format number with Polish formatting
 function formatNumber(num, decimals = 2) {
@@ -35,6 +37,21 @@ function formatNumber(num, decimals = 2) {
     return num.toFixed(decimals)
         .replace('.', ',')
         .replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+}
+
+// Convert currency
+function convertCurrency(value) {
+    if (currentCurrency === 'USD') {
+        return value / USD_TO_PLN;
+    }
+    return value;
+}
+
+// Format currency
+function formatCurrency(value) {
+    const converted = convertCurrency(value);
+    const formatted = formatNumber(converted);
+    return currentCurrency === 'USD' ? '$' + formatted : formatted + ' PLN';
 }
 
 // Format date in Polish
@@ -98,14 +115,14 @@ function calculateKPIs(trades) {
 
 // Update KPI Display
 function updateKPIs(kpis) {
-    document.getElementById('totalPnl').textContent = formatNumber(kpis.totalPnl) + ' PLN';
+    document.getElementById('totalPnl').textContent = formatCurrency(kpis.totalPnl);
     document.getElementById('totalTrades').textContent = kpis.totalTrades;
     document.getElementById('winRate').textContent = formatNumber(kpis.winRate, 1) + '%';
-    document.getElementById('avgWin').textContent = formatNumber(kpis.avgWin) + ' PLN';
-    document.getElementById('avgLoss').textContent = formatNumber(kpis.avgLoss) + ' PLN';
-    document.getElementById('bestTrade').textContent = formatNumber(kpis.bestTrade) + ' PLN';
-    document.getElementById('worstTrade').textContent = formatNumber(kpis.worstTrade) + ' PLN';
-    document.getElementById('maxDrawdown').textContent = formatNumber(kpis.maxDrawdown) + ' PLN';
+    document.getElementById('avgWin').textContent = formatCurrency(kpis.avgWin);
+    document.getElementById('avgLoss').textContent = formatCurrency(kpis.avgLoss);
+    document.getElementById('bestTrade').textContent = formatCurrency(kpis.bestTrade);
+    document.getElementById('worstTrade').textContent = formatCurrency(kpis.worstTrade);
+    document.getElementById('maxDrawdown').textContent = formatCurrency(kpis.maxDrawdown);
 }
 
 // Initialize Charts
@@ -166,7 +183,7 @@ function initEquityChart() {
                     padding: 12,
                     displayColors: false,
                     callbacks: {
-                        label: (context) => formatNumber(context.parsed.y) + ' PLN'
+                        label: (context) => formatCurrency(context.parsed.y)
                     }
                 }
             },
@@ -226,7 +243,7 @@ function initDailyChart() {
                     padding: 12,
                     displayColors: false,
                     callbacks: {
-                        label: (context) => formatNumber(context.parsed.y) + ' PLN'
+                        label: (context) => formatCurrency(context.parsed.y)
                     }
                 }
             },
@@ -291,7 +308,7 @@ function initInstrumentChart() {
                     padding: 12,
                     displayColors: false,
                     callbacks: {
-                        label: (context) => formatNumber(context.parsed.y) + ' PLN'
+                        label: (context) => formatCurrency(context.parsed.y)
                     }
                 }
             },
@@ -336,7 +353,7 @@ function populateTable(trades) {
             formatNumber(trade.entry),
             formatNumber(trade.exit),
             formatNumber(trade.quantity, 2),
-            formatNumber(pnl) + ' PLN'
+            formatCurrency(pnl)
         ];
 
         cells.forEach((content, index) => {
@@ -458,6 +475,30 @@ function toggleTheme() {
     }
 }
 
+// Currency Toggle
+function toggleCurrency() {
+    currentCurrency = currentCurrency === 'PLN' ? 'USD' : 'PLN';
+    localStorage.setItem('currency', currentCurrency);
+
+    // Update button text
+    const currencyBtn = document.getElementById('currencyToggle');
+    if (currencyBtn) {
+        currencyBtn.querySelector('.currency-symbol').textContent = currentCurrency;
+    }
+
+    // Recalculate and update all displays
+    if (typeof tradingData !== 'undefined' && tradingData && tradingData.trades) {
+        const kpis = calculateKPIs(tradingData.trades);
+        updateKPIs(kpis);
+        populateTable(filterTrades(tradingData.trades));
+
+        // Reinitialize charts with new currency
+        initEquityChart();
+        initDailyChart();
+        initInstrumentChart();
+    }
+}
+
 // Event Listeners
 document.addEventListener('DOMContentLoaded', () => {
     // Apply saved theme
@@ -487,6 +528,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Populate table
     populateTable(tradingData.trades);
+
+    // Currency toggle
+    const currencyToggle = document.getElementById('currencyToggle');
+    if (currencyToggle) {
+        currencyToggle.addEventListener('click', toggleCurrency);
+        // Set initial currency text
+        currencyToggle.querySelector('.currency-symbol').textContent = currentCurrency;
+    }
 
     // Language toggle
     const langToggle = document.getElementById('langToggle');
