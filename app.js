@@ -98,14 +98,14 @@ function calculateKPIs(trades) {
 
 // Update KPI Display
 function updateKPIs(kpis) {
-    document.getElementById('totalPnl').textContent = formatNumber(kpis.totalPnl) + ' PLN';
+    document.getElementById('totalPnl').textContent = '$' + formatNumber(kpis.totalPnl);
     document.getElementById('totalTrades').textContent = kpis.totalTrades;
     document.getElementById('winRate').textContent = formatNumber(kpis.winRate, 1) + '%';
-    document.getElementById('avgWin').textContent = formatNumber(kpis.avgWin) + ' PLN';
-    document.getElementById('avgLoss').textContent = formatNumber(kpis.avgLoss) + ' PLN';
-    document.getElementById('bestTrade').textContent = formatNumber(kpis.bestTrade) + ' PLN';
-    document.getElementById('worstTrade').textContent = formatNumber(kpis.worstTrade) + ' PLN';
-    document.getElementById('maxDrawdown').textContent = formatNumber(kpis.maxDrawdown) + ' PLN';
+    document.getElementById('avgWin').textContent = '$' + formatNumber(kpis.avgWin);
+    document.getElementById('avgLoss').textContent = '$' + formatNumber(kpis.avgLoss);
+    document.getElementById('bestTrade').textContent = '$' + formatNumber(kpis.bestTrade);
+    document.getElementById('worstTrade').textContent = '$' + formatNumber(kpis.worstTrade);
+    document.getElementById('maxDrawdown').textContent = '$' + formatNumber(kpis.maxDrawdown);
 }
 
 // Initialize Charts
@@ -166,7 +166,7 @@ function initEquityChart() {
                     padding: 12,
                     displayColors: false,
                     callbacks: {
-                        label: (context) => formatNumber(context.parsed.y) + ' PLN'
+                        label: (context) => '$' + formatNumber(context.parsed.y)
                     }
                 }
             },
@@ -226,7 +226,7 @@ function initDailyChart() {
                     padding: 12,
                     displayColors: false,
                     callbacks: {
-                        label: (context) => formatNumber(context.parsed.y) + ' PLN'
+                        label: (context) => '$' + formatNumber(context.parsed.y)
                     }
                 }
             },
@@ -291,7 +291,7 @@ function initInstrumentChart() {
                     padding: 12,
                     displayColors: false,
                     callbacks: {
-                        label: (context) => formatNumber(context.parsed.y) + ' PLN'
+                        label: (context) => '$' + formatNumber(context.parsed.y)
                     }
                 }
             },
@@ -336,7 +336,7 @@ function populateTable(trades) {
             formatNumber(trade.entry),
             formatNumber(trade.exit),
             formatNumber(trade.quantity, 2),
-            formatNumber(pnl) + ' PLN'
+            '$' + formatNumber(pnl)
         ];
 
         cells.forEach((content, index) => {
