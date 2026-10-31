@@ -50,6 +50,9 @@ function build() {
   // Filter trades to date range
   const filteredTrades = allTrades.filter(trade => isInDateRange(trade.data));
 
+  // USD to PLN exchange rate
+  const USD_TO_PLN = 3.95;
+
   // Convert numeric fields and map to English field names for app.js
   const trades = filteredTrades.map(trade => ({
     id: parseInt(trade.nr),
@@ -60,7 +63,7 @@ function build() {
     entry: 0, // CSV doesn't have entry/exit prices
     exit: 0,
     quantity: parseFloat(trade.stawka_usd) / 100, // approximate
-    pnl: parseFloat(trade.wynik_usd) || 0
+    pnl: (parseFloat(trade.wynik_usd) || 0) * USD_TO_PLN
   }));
 
   // Read daily summary
@@ -74,8 +77,8 @@ function build() {
   // Convert numeric fields in summary and map to English field names
   const dailySummary = filteredSummary.map(day => ({
     date: day.data,
-    dailyPnl: day.wynik_dnia_usd ? parseFloat(day.wynik_dnia_usd) : 0,
-    portfolioValue: day.portfel_usd ? parseFloat(day.portfel_usd) : 0,
+    dailyPnl: (day.wynik_dnia_usd ? parseFloat(day.wynik_dnia_usd) : 0) * USD_TO_PLN,
+    portfolioValue: (day.portfel_usd ? parseFloat(day.portfel_usd) : 0) * USD_TO_PLN,
     returnPercent: day.zwrot_proc ? parseFloat(day.zwrot_proc) : 0,
     tradeCount: day.liczba_transakcji_licznik ? parseInt(day.liczba_transakcji_licznik) : 0
   }));

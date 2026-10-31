@@ -9,7 +9,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 1,
-    "pnl": -0.03
+    "pnl": -0.1185
   },
   {
     "id": 2,
@@ -20,7 +20,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 1,
-    "pnl": 0.08
+    "pnl": 0.316
   },
   {
     "id": 3,
@@ -31,7 +31,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 10,
-    "pnl": 0.01
+    "pnl": 0.0395
   },
   {
     "id": 4,
@@ -42,7 +42,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 10,
-    "pnl": 0.09
+    "pnl": 0.3555
   },
   {
     "id": 5,
@@ -53,7 +53,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 1.65
+    "pnl": 6.5175
   },
   {
     "id": 6,
@@ -64,7 +64,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": -1.35
+    "pnl": -5.3325000000000005
   },
   {
     "id": 7,
@@ -86,7 +86,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 0.01
+    "pnl": 0.0395
   },
   {
     "id": 9,
@@ -97,7 +97,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 1.64
+    "pnl": 6.478
   },
   {
     "id": 10,
@@ -108,7 +108,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 1.68
+    "pnl": 6.636
   },
   {
     "id": 11,
@@ -119,7 +119,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 9.72
+    "pnl": 38.394000000000005
   },
   {
     "id": 12,
@@ -130,7 +130,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 7.78
+    "pnl": 30.731
   },
   {
     "id": 13,
@@ -141,7 +141,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": -1.22
+    "pnl": -4.819
   },
   {
     "id": 14,
@@ -152,7 +152,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 14.38
+    "pnl": 56.80100000000001
   },
   {
     "id": 15,
@@ -163,7 +163,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 18.51
+    "pnl": 73.1145
   },
   {
     "id": 16,
@@ -174,7 +174,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 5.74
+    "pnl": 22.673000000000002
   },
   {
     "id": 17,
@@ -185,7 +185,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": -2.88
+    "pnl": -11.376
   },
   {
     "id": 18,
@@ -196,7 +196,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 20.95
+    "pnl": 82.7525
   },
   {
     "id": 19,
@@ -207,7 +207,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 17.93
+    "pnl": 70.8235
   },
   {
     "id": 20,
@@ -218,7 +218,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 1,
-    "pnl": -0.01
+    "pnl": -0.0395
   },
   {
     "id": 21,
@@ -229,7 +229,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 1,
-    "pnl": 0.01
+    "pnl": 0.0395
   },
   {
     "id": 22,
@@ -240,7 +240,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 1,
-    "pnl": 0.97
+    "pnl": 3.8315
   },
   {
     "id": 23,
@@ -251,7 +251,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 16.71
+    "pnl": 66.00450000000001
   },
   {
     "id": 24,
@@ -262,7 +262,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 5.16
+    "pnl": 20.382
   },
   {
     "id": 25,
@@ -273,7 +273,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 1,
-    "pnl": 0.14
+    "pnl": 0.553
   },
   {
     "id": 26,
@@ -284,7 +284,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 1.2
+    "pnl": 4.74
   },
   {
     "id": 27,
@@ -295,7 +295,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 1.07
+    "pnl": 4.226500000000001
   },
   {
     "id": 28,
@@ -306,7 +306,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 26.45
+    "pnl": 104.4775
   },
   {
     "id": 29,
@@ -317,7 +317,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 8.62
+    "pnl": 34.049
   },
   {
     "id": 30,
@@ -328,7 +328,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 11.41
+    "pnl": 45.069500000000005
   },
   {
     "id": 31,
@@ -339,7 +339,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 39.37
+    "pnl": 155.51149999999998
   },
   {
     "id": 32,
@@ -350,7 +350,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 0.24
+    "pnl": 0.948
   },
   {
     "id": 33,
@@ -361,7 +361,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 4.21
+    "pnl": 16.6295
   },
   {
     "id": 34,
@@ -372,7 +372,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 1.68
+    "pnl": 6.636
   },
   {
     "id": 35,
@@ -383,7 +383,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 12.42
+    "pnl": 49.059000000000005
   },
   {
     "id": 36,
@@ -394,7 +394,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 18.96
+    "pnl": 74.89200000000001
   },
   {
     "id": 37,
@@ -405,7 +405,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 30.67
+    "pnl": 121.14650000000002
   },
   {
     "id": 38,
@@ -416,7 +416,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 15,
-    "pnl": 18.85
+    "pnl": 74.45750000000001
   },
   {
     "id": 39,
@@ -427,7 +427,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 19.01
+    "pnl": 75.08950000000002
   },
   {
     "id": 40,
@@ -438,7 +438,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 99.77
+    "pnl": 394.0915
   },
   {
     "id": 41,
@@ -449,7 +449,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 22.84
+    "pnl": 90.218
   },
   {
     "id": 42,
@@ -460,7 +460,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 72.89
+    "pnl": 287.9155
   },
   {
     "id": 43,
@@ -471,7 +471,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -10.04
+    "pnl": -39.658
   },
   {
     "id": 44,
@@ -482,7 +482,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -146.23
+    "pnl": -577.6084999999999
   },
   {
     "id": 45,
@@ -493,7 +493,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 29.95
+    "pnl": 118.30250000000001
   },
   {
     "id": 46,
@@ -504,7 +504,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 0.62
+    "pnl": 2.4490000000000003
   },
   {
     "id": 47,
@@ -515,7 +515,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 11.52
+    "pnl": 45.504
   },
   {
     "id": 48,
@@ -526,7 +526,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 39.33
+    "pnl": 155.3535
   },
   {
     "id": 49,
@@ -537,7 +537,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 28.09
+    "pnl": 110.9555
   },
   {
     "id": 50,
@@ -548,7 +548,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -18.64
+    "pnl": -73.628
   },
   {
     "id": 51,
@@ -559,7 +559,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 51.19
+    "pnl": 202.2005
   },
   {
     "id": 52,
@@ -570,7 +570,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 32.18
+    "pnl": 127.111
   },
   {
     "id": 53,
@@ -581,7 +581,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 67.75
+    "pnl": 267.6125
   },
   {
     "id": 54,
@@ -592,7 +592,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 1.89
+    "pnl": 7.4655
   },
   {
     "id": 55,
@@ -603,7 +603,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 43.28
+    "pnl": 170.95600000000002
   },
   {
     "id": 56,
@@ -614,7 +614,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 70.82
+    "pnl": 279.739
   },
   {
     "id": 57,
@@ -625,7 +625,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -1.89
+    "pnl": -7.4655
   },
   {
     "id": 58,
@@ -636,7 +636,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 39.66
+    "pnl": 156.65699999999998
   },
   {
     "id": 59,
@@ -647,7 +647,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 11
+    "pnl": 43.45
   },
   {
     "id": 60,
@@ -658,7 +658,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 46.69
+    "pnl": 184.4255
   },
   {
     "id": 61,
@@ -669,7 +669,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 18.02
+    "pnl": 71.179
   },
   {
     "id": 62,
@@ -680,7 +680,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 0.03
+    "pnl": 0.1185
   },
   {
     "id": 63,
@@ -691,7 +691,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -58.62
+    "pnl": -231.549
   },
   {
     "id": 64,
@@ -702,7 +702,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 45.38
+    "pnl": 179.251
   },
   {
     "id": 65,
@@ -713,7 +713,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 20.95
+    "pnl": 82.7525
   },
   {
     "id": 66,
@@ -724,7 +724,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -10.61
+    "pnl": -41.9095
   },
   {
     "id": 67,
@@ -735,7 +735,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 57.35
+    "pnl": 226.53250000000003
   },
   {
     "id": 68,
@@ -746,7 +746,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 0.37
+    "pnl": 1.4615
   },
   {
     "id": 69,
@@ -757,7 +757,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 89.57
+    "pnl": 353.8015
   },
   {
     "id": 70,
@@ -768,7 +768,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 49.23
+    "pnl": 194.4585
   },
   {
     "id": 71,
@@ -779,7 +779,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -151.79
+    "pnl": -599.5705
   },
   {
     "id": 72,
@@ -790,7 +790,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 12.41
+    "pnl": 49.0195
   },
   {
     "id": 73,
@@ -812,7 +812,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -2.81
+    "pnl": -11.0995
   },
   {
     "id": 75,
@@ -823,7 +823,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 12.73
+    "pnl": 50.283500000000004
   },
   {
     "id": 76,
@@ -834,7 +834,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -324.82
+    "pnl": -1283.039
   },
   {
     "id": 77,
@@ -845,7 +845,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -90
+    "pnl": -355.5
   },
   {
     "id": 78,
@@ -856,7 +856,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 28.55
+    "pnl": 112.77250000000001
   },
   {
     "id": 79,
@@ -867,7 +867,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -130.33
+    "pnl": -514.8035000000001
   },
   {
     "id": 80,
@@ -878,7 +878,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 1.6
+    "pnl": 6.32
   },
   {
     "id": 81,
@@ -889,7 +889,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 54.14
+    "pnl": 213.853
   },
   {
     "id": 82,
@@ -900,7 +900,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -3.47
+    "pnl": -13.706500000000002
   },
   {
     "id": 83,
@@ -911,7 +911,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 31.44
+    "pnl": 124.18800000000002
   },
   {
     "id": 84,
@@ -922,7 +922,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -90
+    "pnl": -355.5
   },
   {
     "id": 85,
@@ -933,7 +933,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 116.47
+    "pnl": 460.0565
   },
   {
     "id": 86,
@@ -944,7 +944,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -70.33
+    "pnl": -277.8035
   },
   {
     "id": 87,
@@ -955,7 +955,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 61.64
+    "pnl": 243.478
   },
   {
     "id": 88,
@@ -966,7 +966,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 38.53
+    "pnl": 152.1935
   },
   {
     "id": 89,
@@ -977,7 +977,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 12.9
+    "pnl": 50.955000000000005
   },
   {
     "id": 90,
@@ -988,7 +988,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 159.46
+    "pnl": 629.8670000000001
   },
   {
     "id": 91,
@@ -999,7 +999,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 13.65
+    "pnl": 53.917500000000004
   },
   {
     "id": 92,
@@ -1010,7 +1010,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -200.35
+    "pnl": -791.3825
   },
   {
     "id": 93,
@@ -1021,7 +1021,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 43.08
+    "pnl": 170.166
   },
   {
     "id": 94,
@@ -1032,7 +1032,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 66.09
+    "pnl": 261.05550000000005
   },
   {
     "id": 95,
@@ -1043,7 +1043,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 64.12
+    "pnl": 253.27400000000003
   },
   {
     "id": 96,
@@ -1054,7 +1054,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 13.07
+    "pnl": 51.6265
   },
   {
     "id": 97,
@@ -1065,7 +1065,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 49.74
+    "pnl": 196.473
   },
   {
     "id": 98,
@@ -1076,7 +1076,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 58.91
+    "pnl": 232.6945
   },
   {
     "id": 99,
@@ -1087,7 +1087,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 31.03
+    "pnl": 122.56850000000001
   },
   {
     "id": 100,
@@ -1098,7 +1098,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 31.11
+    "pnl": 122.8845
   },
   {
     "id": 101,
@@ -1109,7 +1109,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -461.76
+    "pnl": -1823.952
   },
   {
     "id": 102,
@@ -1120,7 +1120,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 44.15
+    "pnl": 174.3925
   },
   {
     "id": 103,
@@ -1131,7 +1131,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 56.66
+    "pnl": 223.807
   },
   {
     "id": 104,
@@ -1142,7 +1142,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 0.06
+    "pnl": 0.237
   },
   {
     "id": 105,
@@ -1153,7 +1153,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 26.74
+    "pnl": 105.623
   },
   {
     "id": 106,
@@ -1164,7 +1164,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 102.33
+    "pnl": 404.2035
   },
   {
     "id": 107,
@@ -1175,7 +1175,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -23.42
+    "pnl": -92.50900000000001
   },
   {
     "id": 108,
@@ -1186,7 +1186,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 78.06
+    "pnl": 308.33700000000005
   },
   {
     "id": 109,
@@ -1197,7 +1197,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 90.65
+    "pnl": 358.06750000000005
   },
   {
     "id": 110,
@@ -1208,7 +1208,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 149.29
+    "pnl": 589.6955
   },
   {
     "id": 111,
@@ -1219,7 +1219,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -166.61
+    "pnl": -658.1095000000001
   },
   {
     "id": 112,
@@ -1230,7 +1230,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 231.58
+    "pnl": 914.7410000000001
   },
   {
     "id": 113,
@@ -1241,7 +1241,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 11.45
+    "pnl": 45.2275
   },
   {
     "id": 114,
@@ -1252,7 +1252,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 15.68
+    "pnl": 61.936
   },
   {
     "id": 115,
@@ -1263,7 +1263,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 26.15
+    "pnl": 103.2925
   },
   {
     "id": 116,
@@ -1274,7 +1274,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 117,
@@ -1285,7 +1285,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 16.71
+    "pnl": 66.00450000000001
   },
   {
     "id": 118,
@@ -1296,7 +1296,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 39.89
+    "pnl": 157.56550000000001
   },
   {
     "id": 119,
@@ -1307,7 +1307,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 30
+    "pnl": 118.5
   },
   {
     "id": 120,
@@ -1318,7 +1318,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -60
+    "pnl": -237
   },
   {
     "id": 121,
@@ -1329,7 +1329,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 27.08
+    "pnl": 106.966
   },
   {
     "id": 122,
@@ -1340,7 +1340,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -1.03
+    "pnl": -4.0685
   },
   {
     "id": 123,
@@ -1351,7 +1351,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 12.39
+    "pnl": 48.94050000000001
   },
   {
     "id": 124,
@@ -1362,7 +1362,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -90
+    "pnl": -355.5
   },
   {
     "id": 125,
@@ -1373,7 +1373,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 10.79
+    "pnl": 42.6205
   },
   {
     "id": 126,
@@ -1384,7 +1384,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 14.98
+    "pnl": 59.17100000000001
   },
   {
     "id": 127,
@@ -1395,7 +1395,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -90
+    "pnl": -355.5
   },
   {
     "id": 128,
@@ -1406,7 +1406,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 17.73
+    "pnl": 70.0335
   },
   {
     "id": 129,
@@ -1417,7 +1417,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -30
+    "pnl": -118.5
   },
   {
     "id": 130,
@@ -1428,7 +1428,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 0.31
+    "pnl": 1.2245000000000001
   },
   {
     "id": 131,
@@ -1439,7 +1439,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 14.64
+    "pnl": 57.828
   },
   {
     "id": 132,
@@ -1450,7 +1450,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 12
+    "pnl": 47.400000000000006
   },
   {
     "id": 133,
@@ -1461,7 +1461,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 76.17
+    "pnl": 300.8715
   },
   {
     "id": 134,
@@ -1472,7 +1472,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 11.2
+    "pnl": 44.24
   },
   {
     "id": 135,
@@ -1483,7 +1483,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 1.99
+    "pnl": 7.8605
   },
   {
     "id": 136,
@@ -1494,7 +1494,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 51.76
+    "pnl": 204.452
   },
   {
     "id": 137,
@@ -1505,7 +1505,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 21.11
+    "pnl": 83.3845
   },
   {
     "id": 138,
@@ -1516,7 +1516,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 39.29
+    "pnl": 155.1955
   },
   {
     "id": 139,
@@ -1527,7 +1527,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -2.12
+    "pnl": -8.374
   },
   {
     "id": 140,
@@ -1538,7 +1538,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 8.22
+    "pnl": 32.469
   },
   {
     "id": 141,
@@ -1549,7 +1549,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -15.01
+    "pnl": -59.289500000000004
   },
   {
     "id": 142,
@@ -1560,7 +1560,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 1.81
+    "pnl": 7.149500000000001
   },
   {
     "id": 143,
@@ -1571,7 +1571,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 87.52
+    "pnl": 345.704
   },
   {
     "id": 144,
@@ -1582,7 +1582,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 41.78
+    "pnl": 165.031
   },
   {
     "id": 145,
@@ -1593,7 +1593,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 5.82
+    "pnl": 22.989
   },
   {
     "id": 146,
@@ -1604,7 +1604,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 147,
@@ -1615,7 +1615,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 21.22
+    "pnl": 83.819
   },
   {
     "id": 148,
@@ -1626,7 +1626,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 59.88
+    "pnl": 236.526
   },
   {
     "id": 149,
@@ -1637,7 +1637,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 30.96
+    "pnl": 122.29200000000002
   },
   {
     "id": 150,
@@ -1648,7 +1648,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 31.93
+    "pnl": 126.1235
   },
   {
     "id": 151,
@@ -1659,7 +1659,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 67.5
+    "pnl": 266.625
   },
   {
     "id": 152,
@@ -1670,7 +1670,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -60
+    "pnl": -237
   },
   {
     "id": 153,
@@ -1681,7 +1681,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 36.84
+    "pnl": 145.51800000000003
   },
   {
     "id": 154,
@@ -1692,7 +1692,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 37.02
+    "pnl": 146.229
   },
   {
     "id": 155,
@@ -1703,7 +1703,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 26.78
+    "pnl": 105.781
   },
   {
     "id": 156,
@@ -1714,7 +1714,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 47.87
+    "pnl": 189.0865
   },
   {
     "id": 157,
@@ -1725,7 +1725,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 20.61
+    "pnl": 81.40950000000001
   },
   {
     "id": 158,
@@ -1736,7 +1736,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 76.16
+    "pnl": 300.832
   },
   {
     "id": 159,
@@ -1747,7 +1747,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 60.9
+    "pnl": 240.555
   },
   {
     "id": 160,
@@ -1758,7 +1758,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -60
+    "pnl": -237
   },
   {
     "id": 161,
@@ -1769,7 +1769,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 35.06
+    "pnl": 138.48700000000002
   },
   {
     "id": 162,
@@ -1780,7 +1780,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 36.96
+    "pnl": 145.99200000000002
   },
   {
     "id": 163,
@@ -1791,7 +1791,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 15.9
+    "pnl": 62.80500000000001
   },
   {
     "id": 164,
@@ -1802,7 +1802,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 25.22
+    "pnl": 99.619
   },
   {
     "id": 165,
@@ -1813,7 +1813,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 36.32
+    "pnl": 143.464
   },
   {
     "id": 166,
@@ -1824,7 +1824,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 6.78
+    "pnl": 26.781000000000002
   },
   {
     "id": 167,
@@ -1835,7 +1835,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 23.03
+    "pnl": 90.9685
   },
   {
     "id": 168,
@@ -1846,7 +1846,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -4.82
+    "pnl": -19.039
   },
   {
     "id": 169,
@@ -1857,7 +1857,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 31.67
+    "pnl": 125.0965
   },
   {
     "id": 170,
@@ -1868,7 +1868,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 33.27
+    "pnl": 131.4165
   },
   {
     "id": 171,
@@ -1879,7 +1879,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -7.43
+    "pnl": -29.3485
   },
   {
     "id": 172,
@@ -1890,7 +1890,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 110.43
+    "pnl": 436.1985
   },
   {
     "id": 173,
@@ -1901,7 +1901,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 25.93
+    "pnl": 102.4235
   },
   {
     "id": 174,
@@ -1912,7 +1912,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 23.51
+    "pnl": 92.8645
   },
   {
     "id": 175,
@@ -1923,7 +1923,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 59.59
+    "pnl": 235.3805
   },
   {
     "id": 176,
@@ -1934,7 +1934,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 28.47
+    "pnl": 112.4565
   },
   {
     "id": 177,
@@ -1945,7 +1945,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 79.44
+    "pnl": 313.788
   },
   {
     "id": 178,
@@ -1956,7 +1956,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 179,
@@ -1967,7 +1967,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 25.26
+    "pnl": 99.77700000000002
   },
   {
     "id": 180,
@@ -1978,7 +1978,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 15.21
+    "pnl": 60.0795
   },
   {
     "id": 181,
@@ -1989,7 +1989,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 23.83
+    "pnl": 94.1285
   },
   {
     "id": 182,
@@ -2000,7 +2000,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 183,
@@ -2011,7 +2011,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 53.05
+    "pnl": 209.54749999999999
   },
   {
     "id": 184,
@@ -2022,7 +2022,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 30.73
+    "pnl": 121.38350000000001
   },
   {
     "id": 185,
@@ -2033,7 +2033,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 30.54
+    "pnl": 120.633
   },
   {
     "id": 186,
@@ -2044,7 +2044,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 157.31
+    "pnl": 621.3745
   },
   {
     "id": 187,
@@ -2055,7 +2055,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 11.39
+    "pnl": 44.990500000000004
   },
   {
     "id": 188,
@@ -2066,7 +2066,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 189,
@@ -2077,7 +2077,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -89.27
+    "pnl": -352.6165
   },
   {
     "id": 190,
@@ -2088,7 +2088,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 66.32
+    "pnl": 261.964
   },
   {
     "id": 191,
@@ -2099,7 +2099,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 192,
@@ -2110,7 +2110,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 38.35
+    "pnl": 151.48250000000002
   },
   {
     "id": 193,
@@ -2121,7 +2121,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 23.02
+    "pnl": 90.929
   },
   {
     "id": 194,
@@ -2132,7 +2132,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 46.76
+    "pnl": 184.702
   },
   {
     "id": 195,
@@ -2143,7 +2143,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 12.48
+    "pnl": 49.29600000000001
   },
   {
     "id": 196,
@@ -2154,7 +2154,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 47.3
+    "pnl": 186.835
   },
   {
     "id": 197,
@@ -2165,7 +2165,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 60.14
+    "pnl": 237.55300000000003
   },
   {
     "id": 198,
@@ -2176,7 +2176,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -13.25
+    "pnl": -52.337500000000006
   },
   {
     "id": 199,
@@ -2187,7 +2187,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 51.95
+    "pnl": 205.20250000000001
   },
   {
     "id": 200,
@@ -2198,7 +2198,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 63.09
+    "pnl": 249.20550000000003
   },
   {
     "id": 201,
@@ -2209,7 +2209,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 202,
@@ -2220,7 +2220,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 109.64
+    "pnl": 433.07800000000003
   },
   {
     "id": 203,
@@ -2231,7 +2231,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 16.86
+    "pnl": 66.597
   },
   {
     "id": 204,
@@ -2242,7 +2242,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 80.77
+    "pnl": 319.0415
   },
   {
     "id": 205,
@@ -2253,7 +2253,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 32.62
+    "pnl": 128.849
   },
   {
     "id": 206,
@@ -2264,7 +2264,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 16
+    "pnl": 63.2
   },
   {
     "id": 207,
@@ -2275,7 +2275,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 208,
@@ -2286,7 +2286,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 52.34
+    "pnl": 206.74300000000002
   },
   {
     "id": 209,
@@ -2297,7 +2297,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 37.31
+    "pnl": 147.3745
   },
   {
     "id": 210,
@@ -2308,7 +2308,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 45.72
+    "pnl": 180.594
   },
   {
     "id": 211,
@@ -2319,7 +2319,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 30.45
+    "pnl": 120.2775
   },
   {
     "id": 212,
@@ -2330,7 +2330,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 33.05
+    "pnl": 130.54749999999999
   },
   {
     "id": 213,
@@ -2341,7 +2341,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 34.99
+    "pnl": 138.21050000000002
   },
   {
     "id": 214,
@@ -2352,7 +2352,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 5.82
+    "pnl": 22.989
   },
   {
     "id": 215,
@@ -2363,7 +2363,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 22.12
+    "pnl": 87.37400000000001
   },
   {
     "id": 216,
@@ -2374,7 +2374,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 47.19
+    "pnl": 186.4005
   },
   {
     "id": 217,
@@ -2385,7 +2385,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 10.31
+    "pnl": 40.724500000000006
   },
   {
     "id": 218,
@@ -2396,7 +2396,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 34.23
+    "pnl": 135.2085
   },
   {
     "id": 219,
@@ -2407,7 +2407,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 39.47
+    "pnl": 155.9065
   },
   {
     "id": 220,
@@ -2418,7 +2418,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 50.72
+    "pnl": 200.344
   },
   {
     "id": 221,
@@ -2429,7 +2429,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 30.14
+    "pnl": 119.05300000000001
   },
   {
     "id": 222,
@@ -2440,7 +2440,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 31.93
+    "pnl": 126.1235
   },
   {
     "id": 223,
@@ -2451,7 +2451,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 224,
@@ -2462,7 +2462,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 19.71
+    "pnl": 77.8545
   },
   {
     "id": 225,
@@ -2473,7 +2473,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 226,
@@ -2484,7 +2484,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 98.26
+    "pnl": 388.127
   },
   {
     "id": 227,
@@ -2495,7 +2495,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 53.9
+    "pnl": 212.905
   },
   {
     "id": 228,
@@ -2506,7 +2506,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 52.22
+    "pnl": 206.269
   },
   {
     "id": 229,
@@ -2517,7 +2517,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 230,
@@ -2528,7 +2528,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 27.06
+    "pnl": 106.887
   },
   {
     "id": 231,
@@ -2539,7 +2539,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 55.21
+    "pnl": 218.07950000000002
   },
   {
     "id": 232,
@@ -2550,7 +2550,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 45.63
+    "pnl": 180.23850000000002
   },
   {
     "id": 233,
@@ -2561,7 +2561,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 86.19
+    "pnl": 340.45050000000003
   },
   {
     "id": 234,
@@ -2572,7 +2572,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -2.74
+    "pnl": -10.823000000000002
   },
   {
     "id": 235,
@@ -2583,7 +2583,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 35.48
+    "pnl": 140.146
   },
   {
     "id": 236,
@@ -2594,7 +2594,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 55.97
+    "pnl": 221.0815
   },
   {
     "id": 237,
@@ -2605,7 +2605,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 238,
@@ -2616,7 +2616,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 63.49
+    "pnl": 250.7855
   },
   {
     "id": 239,
@@ -2627,7 +2627,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 42.96
+    "pnl": 169.692
   },
   {
     "id": 240,
@@ -2638,7 +2638,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 60.45
+    "pnl": 238.77750000000003
   },
   {
     "id": 241,
@@ -2649,7 +2649,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -43.14
+    "pnl": -170.40300000000002
   },
   {
     "id": 242,
@@ -2660,7 +2660,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -0.33
+    "pnl": -1.3035
   },
   {
     "id": 243,
@@ -2671,7 +2671,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 26.08
+    "pnl": 103.01599999999999
   },
   {
     "id": 244,
@@ -2682,7 +2682,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 19.29
+    "pnl": 76.1955
   },
   {
     "id": 245,
@@ -2693,7 +2693,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 246,
@@ -2704,7 +2704,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 27.13
+    "pnl": 107.1635
   },
   {
     "id": 247,
@@ -2715,7 +2715,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 36.75
+    "pnl": 145.1625
   },
   {
     "id": 248,
@@ -2726,7 +2726,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 14.58
+    "pnl": 57.591
   },
   {
     "id": 249,
@@ -2737,7 +2737,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -60
+    "pnl": -237
   },
   {
     "id": 250,
@@ -2748,7 +2748,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 49.28
+    "pnl": 194.656
   },
   {
     "id": 251,
@@ -2759,7 +2759,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 43.27
+    "pnl": 170.9165
   },
   {
     "id": 252,
@@ -2770,7 +2770,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 39.03
+    "pnl": 154.16850000000002
   },
   {
     "id": 253,
@@ -2781,7 +2781,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 29.91
+    "pnl": 118.14450000000001
   },
   {
     "id": 254,
@@ -2792,7 +2792,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 71.25
+    "pnl": 281.4375
   },
   {
     "id": 255,
@@ -2803,7 +2803,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 56.8
+    "pnl": 224.35999999999999
   },
   {
     "id": 256,
@@ -2814,7 +2814,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 58.92
+    "pnl": 232.734
   },
   {
     "id": 257,
@@ -2825,7 +2825,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 49.34
+    "pnl": 194.89300000000003
   },
   {
     "id": 258,
@@ -2836,7 +2836,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 46.05
+    "pnl": 181.8975
   },
   {
     "id": 259,
@@ -2847,7 +2847,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 260,
@@ -2858,7 +2858,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 261,
@@ -2869,7 +2869,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 75.96
+    "pnl": 300.042
   },
   {
     "id": 262,
@@ -2880,7 +2880,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 97.9
+    "pnl": 386.70500000000004
   },
   {
     "id": 263,
@@ -2891,7 +2891,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 39.4
+    "pnl": 155.63
   },
   {
     "id": 264,
@@ -2902,7 +2902,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 56.38
+    "pnl": 222.70100000000002
   },
   {
     "id": 265,
@@ -2913,7 +2913,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 57.39
+    "pnl": 226.69050000000001
   },
   {
     "id": 266,
@@ -2924,7 +2924,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 44.93
+    "pnl": 177.4735
   },
   {
     "id": 267,
@@ -2935,7 +2935,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 53.63
+    "pnl": 211.8385
   },
   {
     "id": 268,
@@ -2946,7 +2946,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 45.91
+    "pnl": 181.34449999999998
   },
   {
     "id": 269,
@@ -2957,7 +2957,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 40.38
+    "pnl": 159.501
   },
   {
     "id": 270,
@@ -2968,7 +2968,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 44.02
+    "pnl": 173.87900000000002
   },
   {
     "id": 271,
@@ -2979,7 +2979,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 28.55
+    "pnl": 112.77250000000001
   },
   {
     "id": 272,
@@ -2990,7 +2990,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 51.16
+    "pnl": 202.082
   },
   {
     "id": 273,
@@ -3001,7 +3001,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 274,
@@ -3012,7 +3012,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 57.15
+    "pnl": 225.7425
   },
   {
     "id": 275,
@@ -3023,7 +3023,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 276,
@@ -3034,7 +3034,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 34.63
+    "pnl": 136.78850000000003
   },
   {
     "id": 277,
@@ -3045,7 +3045,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 87.65
+    "pnl": 346.21750000000003
   },
   {
     "id": 278,
@@ -3056,7 +3056,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 45.12
+    "pnl": 178.224
   },
   {
     "id": 279,
@@ -3067,7 +3067,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 55.89
+    "pnl": 220.7655
   },
   {
     "id": 280,
@@ -3078,7 +3078,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 281,
@@ -3089,7 +3089,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 282,
@@ -3100,7 +3100,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 16.81
+    "pnl": 66.3995
   },
   {
     "id": 283,
@@ -3111,7 +3111,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 38.26
+    "pnl": 151.127
   },
   {
     "id": 284,
@@ -3122,7 +3122,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 48.43
+    "pnl": 191.29850000000002
   },
   {
     "id": 285,
@@ -3133,7 +3133,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 50.1
+    "pnl": 197.895
   },
   {
     "id": 286,
@@ -3144,7 +3144,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 32.49
+    "pnl": 128.33550000000002
   },
   {
     "id": 287,
@@ -3155,7 +3155,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 49.69
+    "pnl": 196.2755
   },
   {
     "id": 288,
@@ -3166,7 +3166,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 85.79
+    "pnl": 338.87050000000005
   },
   {
     "id": 289,
@@ -3177,7 +3177,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 27.52
+    "pnl": 108.70400000000001
   },
   {
     "id": 290,
@@ -3188,7 +3188,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 291,
@@ -3199,7 +3199,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 21.91
+    "pnl": 86.5445
   },
   {
     "id": 292,
@@ -3210,7 +3210,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 59.23
+    "pnl": 233.9585
   },
   {
     "id": 293,
@@ -3221,7 +3221,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 21.88
+    "pnl": 86.426
   },
   {
     "id": 294,
@@ -3232,7 +3232,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 30.24
+    "pnl": 119.448
   },
   {
     "id": 295,
@@ -3243,7 +3243,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 45.53
+    "pnl": 179.8435
   },
   {
     "id": 296,
@@ -3254,7 +3254,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 55.92
+    "pnl": 220.88400000000001
   },
   {
     "id": 297,
@@ -3265,7 +3265,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 38.21
+    "pnl": 150.92950000000002
   },
   {
     "id": 298,
@@ -3276,7 +3276,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 26.33
+    "pnl": 104.0035
   },
   {
     "id": 299,
@@ -3287,7 +3287,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 32.33
+    "pnl": 127.7035
   },
   {
     "id": 300,
@@ -3298,7 +3298,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 0.7
+    "pnl": 2.765
   },
   {
     "id": 301,
@@ -3309,7 +3309,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 38.6
+    "pnl": 152.47
   },
   {
     "id": 302,
@@ -3320,7 +3320,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 303,
@@ -3331,7 +3331,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 44.71
+    "pnl": 176.6045
   },
   {
     "id": 304,
@@ -3342,7 +3342,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 72.84
+    "pnl": 287.718
   },
   {
     "id": 305,
@@ -3353,7 +3353,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 22.37
+    "pnl": 88.3615
   },
   {
     "id": 306,
@@ -3364,7 +3364,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 71.38
+    "pnl": 281.951
   },
   {
     "id": 307,
@@ -3375,7 +3375,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 22.93
+    "pnl": 90.57350000000001
   },
   {
     "id": 308,
@@ -3386,7 +3386,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 17.94
+    "pnl": 70.86300000000001
   },
   {
     "id": 309,
@@ -3397,7 +3397,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 310,
@@ -3408,7 +3408,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 21.6
+    "pnl": 85.32000000000001
   },
   {
     "id": 311,
@@ -3419,7 +3419,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 41.73
+    "pnl": 164.8335
   },
   {
     "id": 312,
@@ -3430,7 +3430,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 56.62
+    "pnl": 223.649
   },
   {
     "id": 313,
@@ -3441,7 +3441,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 36.74
+    "pnl": 145.12300000000002
   },
   {
     "id": 314,
@@ -3452,7 +3452,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 60.39
+    "pnl": 238.5405
   },
   {
     "id": 315,
@@ -3463,7 +3463,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 21.62
+    "pnl": 85.399
   },
   {
     "id": 316,
@@ -3474,7 +3474,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 26.48
+    "pnl": 104.596
   },
   {
     "id": 317,
@@ -3485,7 +3485,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 49.74
+    "pnl": 196.473
   },
   {
     "id": 318,
@@ -3496,7 +3496,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 79.18
+    "pnl": 312.761
   },
   {
     "id": 319,
@@ -3507,7 +3507,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 94.34
+    "pnl": 372.64300000000003
   },
   {
     "id": 320,
@@ -3518,7 +3518,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 33.46
+    "pnl": 132.167
   },
   {
     "id": 321,
@@ -3529,7 +3529,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 33.31
+    "pnl": 131.57450000000003
   },
   {
     "id": 322,
@@ -3540,7 +3540,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 55.66
+    "pnl": 219.857
   },
   {
     "id": 323,
@@ -3551,7 +3551,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 106.93
+    "pnl": 422.37350000000004
   },
   {
     "id": 324,
@@ -3562,7 +3562,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 46.63
+    "pnl": 184.1885
   },
   {
     "id": 325,
@@ -3573,7 +3573,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 52.24
+    "pnl": 206.348
   },
   {
     "id": 326,
@@ -3584,7 +3584,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 33.49
+    "pnl": 132.2855
   },
   {
     "id": 327,
@@ -3595,7 +3595,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 328,
@@ -3606,7 +3606,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 329,
@@ -3617,7 +3617,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 44.38
+    "pnl": 175.30100000000002
   },
   {
     "id": 330,
@@ -3628,7 +3628,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 74.48
+    "pnl": 294.196
   },
   {
     "id": 331,
@@ -3639,7 +3639,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 32.74
+    "pnl": 129.323
   },
   {
     "id": 332,
@@ -3650,7 +3650,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 333,
@@ -3661,7 +3661,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 61.23
+    "pnl": 241.8585
   },
   {
     "id": 334,
@@ -3672,7 +3672,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 335,
@@ -3683,7 +3683,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 336,
@@ -3694,7 +3694,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 153.88
+    "pnl": 607.826
   },
   {
     "id": 337,
@@ -3705,7 +3705,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 86.46
+    "pnl": 341.517
   },
   {
     "id": 338,
@@ -3716,7 +3716,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -75
+    "pnl": -296.25
   },
   {
     "id": 339,
@@ -3727,7 +3727,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 46.07
+    "pnl": 181.97650000000002
   },
   {
     "id": 340,
@@ -3738,7 +3738,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 41.5
+    "pnl": 163.925
   },
   {
     "id": 341,
@@ -3749,7 +3749,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 230.49
+    "pnl": 910.4355
   },
   {
     "id": 342,
@@ -3760,7 +3760,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 67.17
+    "pnl": 265.3215
   },
   {
     "id": 343,
@@ -3771,7 +3771,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 123.56
+    "pnl": 488.062
   },
   {
     "id": 344,
@@ -3782,7 +3782,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 61.01
+    "pnl": 240.9895
   },
   {
     "id": 345,
@@ -3793,7 +3793,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 189.18
+    "pnl": 747.2610000000001
   },
   {
     "id": 346,
@@ -3804,7 +3804,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -45
+    "pnl": -177.75
   },
   {
     "id": 347,
@@ -3815,7 +3815,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 132.64
+    "pnl": 523.928
   },
   {
     "id": 348,
@@ -3826,7 +3826,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 82.11
+    "pnl": 324.3345
   },
   {
     "id": 349,
@@ -3837,7 +3837,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 142.22
+    "pnl": 561.769
   },
   {
     "id": 350,
@@ -3848,7 +3848,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 117.04
+    "pnl": 462.30800000000005
   },
   {
     "id": 351,
@@ -3859,7 +3859,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 73.15
+    "pnl": 288.94250000000005
   },
   {
     "id": 352,
@@ -3870,7 +3870,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -15
+    "pnl": -59.25
   },
   {
     "id": 353,
@@ -3881,7 +3881,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 82.97
+    "pnl": 327.7315
   },
   {
     "id": 354,
@@ -3892,7 +3892,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 48.17
+    "pnl": 190.2715
   },
   {
     "id": 355,
@@ -3903,7 +3903,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 52.1
+    "pnl": 205.79500000000002
   },
   {
     "id": 356,
@@ -3914,7 +3914,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 101.46
+    "pnl": 400.767
   },
   {
     "id": 357,
@@ -3925,7 +3925,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 46.94
+    "pnl": 185.413
   },
   {
     "id": 358,
@@ -3936,7 +3936,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 36.17
+    "pnl": 142.87150000000003
   },
   {
     "id": 359,
@@ -3947,7 +3947,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -555
+    "pnl": -2192.25
   },
   {
     "id": 360,
@@ -3958,7 +3958,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 124.79
+    "pnl": 492.92050000000006
   },
   {
     "id": 361,
@@ -3969,7 +3969,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 460.62
+    "pnl": 1819.449
   },
   {
     "id": 362,
@@ -3980,7 +3980,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -0.42
+    "pnl": -1.659
   },
   {
     "id": 363,
@@ -3991,7 +3991,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 109.44
+    "pnl": 432.288
   },
   {
     "id": 364,
@@ -4002,7 +4002,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -8.28
+    "pnl": -32.705999999999996
   },
   {
     "id": 365,
@@ -4013,7 +4013,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 32.61
+    "pnl": 128.8095
   },
   {
     "id": 366,
@@ -4024,7 +4024,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 74.86
+    "pnl": 295.697
   },
   {
     "id": 367,
@@ -4035,7 +4035,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 58.38
+    "pnl": 230.60100000000003
   },
   {
     "id": 368,
@@ -4046,7 +4046,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 45.86
+    "pnl": 181.14700000000002
   },
   {
     "id": 369,
@@ -4057,7 +4057,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": -180
+    "pnl": -711
   },
   {
     "id": 370,
@@ -4068,7 +4068,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 265.19
+    "pnl": 1047.5005
   },
   {
     "id": 371,
@@ -4079,7 +4079,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 602.11
+    "pnl": 2378.3345
   },
   {
     "id": 372,
@@ -4090,7 +4090,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 120,
-    "pnl": -60
+    "pnl": -237
   },
   {
     "id": 373,
@@ -4101,7 +4101,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 30,
-    "pnl": 134.74
+    "pnl": 532.2230000000001
   },
   {
     "id": 374,
@@ -4112,7 +4112,7 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 120,
-    "pnl": 1281.45
+    "pnl": 5061.7275
   },
   {
     "id": 375,
@@ -4123,56 +4123,56 @@ const tradingData = {
     "entry": 0,
     "exit": 0,
     "quantity": 120,
-    "pnl": 2016.57
+    "pnl": 7965.4515
   }
 ],
   dailySummary: [
   {
     "date": "2026-10-23",
-    "dailyPnl": 166.42,
-    "portfolioValue": 10766,
+    "dailyPnl": 657.3589999999999,
+    "portfolioValue": 42525.700000000004,
     "returnPercent": 0,
     "tradeCount": 30
   },
   {
     "date": "2026-10-24",
-    "dailyPnl": 2078.06,
+    "dailyPnl": 8208.337,
     "portfolioValue": 0,
     "returnPercent": 0,
     "tradeCount": 0
   },
   {
     "date": "2026-10-25",
-    "dailyPnl": 2739.82,
+    "dailyPnl": 10822.289,
     "portfolioValue": 0,
     "returnPercent": 0,
     "tradeCount": 0
   },
   {
     "date": "2026-10-26",
-    "dailyPnl": 760.7,
+    "dailyPnl": 3004.7650000000003,
     "portfolioValue": 0,
     "returnPercent": 0,
     "tradeCount": 0
   },
   {
     "date": "2026-10-27",
-    "dailyPnl": 583.81,
+    "dailyPnl": 2306.0495,
     "portfolioValue": 0,
     "returnPercent": 0,
     "tradeCount": 0
   },
   {
     "date": "2026-10-28",
-    "dailyPnl": 2006.41,
-    "portfolioValue": 20047,
+    "dailyPnl": 7925.3195000000005,
+    "portfolioValue": 79185.65000000001,
     "returnPercent": 100.47,
     "tradeCount": 358
   },
   {
     "date": "2026-10-29",
-    "dailyPnl": 4402.92,
-    "portfolioValue": 24450,
+    "dailyPnl": 17391.534,
+    "portfolioValue": 96577.5,
     "returnPercent": 144.5,
     "tradeCount": 375
   }
