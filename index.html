@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Tradingu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M8 8L24 24M24 8L8 24" stroke="#8b7cf6" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+                <span class="nav-brand">TradingDash</span>
+            </div>
+            <div class="nav-controls">
+                <button class="btn-lang" id="langToggle">
+                    <span class="lang-pl">PL</span>
+                    <span class="lang-en">EN</span>
+                </button>
+                <button class="btn-theme" id="themeToggle">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="2"/>
+                        <path d="M10 2V4M10 16V18M18 10H16M4 10H2M15.66 4.34L14.24 5.76M5.76 14.24L4.34 15.66M15.66 15.66L14.24 14.24M5.76 5.76L4.34 4.34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <button class="btn-menu" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Header Section -->
+        <header class="page-header">
+            <div class="eyebrow" data-en="TRADING DASHBOARD">DASHBOARD TRADINGU</div>
+            <h1 class="page-title" data-en="7 Days of Trading">7 dni tradingu</h1>
+            <p class="page-subtitle">23.10.2026 – 29.10.2026</p>
+        </header>
+
+        <!-- KPI Cards Grid -->
+        <section class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-label" data-en="Total P&L">Łączny PnL</div>
+                <div class="kpi-value" id="totalPnl">0,00 PLN</div>
+                <div class="kpi-trend positive">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path d="M6 10V2M6 2L2 6M6 2L10 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label" data-en="Total Trades">Liczba transakcji</div>
+                <div class="kpi-value" id="totalTrades">0</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label" data-en="Win Rate">Win Rate</div>
+                <div class="kpi-value" id="winRate">0%</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label" data-en="Average Win">Średni zysk</div>
+                <div class="kpi-value positive" id="avgWin">0,00 PLN</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label" data-en="Average Loss">Średnia strata</div>
+                <div class="kpi-value negative" id="avgLoss">0,00 PLN</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label" data-en="Best Trade">Najlepsza transakcja</div>
+                <div class="kpi-value positive" id="bestTrade">0,00 PLN</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label" data-en="Worst Trade">Najgorsza transakcja</div>
+                <div class="kpi-value negative" id="worstTrade">0,00 PLN</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label" data-en="Max Drawdown">Max Drawdown</div>
+                <div class="kpi-value negative" id="maxDrawdown">0,00 PLN</div>
+            </div>
+        </section>
+
+        <!-- Equity Curve Chart -->
+        <section class="chart-section">
+            <h2 class="section-title" data-en="Equity Curve">Krzywa kapitału</h2>
+            <div class="chart-container">
+                <canvas id="equityChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Daily Performance Chart -->
+        <section class="chart-section">
+            <h2 class="section-title" data-en="Daily Performance">Wyniki dzień po dniu</h2>
+            <div class="chart-container">
+                <canvas id="dailyChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Instrument Breakdown -->
+        <section class="chart-section">
+            <h2 class="section-title" data-en="Performance by Instrument">Podział per instrument</h2>
+            <div class="chart-container">
+                <canvas id="instrumentChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Filters -->
+        <section class="filters-section">
+            <div class="filter-pills">
+                <button class="pill active" data-filter="all" data-en="All">Wszystko</button>
+                <button class="pill" data-filter="2026-10-23">23.10</button>
+                <button class="pill" data-filter="2026-10-24">24.10</button>
+                <button class="pill" data-filter="2026-10-25">25.10</button>
+                <button class="pill" data-filter="2026-10-26">26.10</button>
+                <button class="pill" data-filter="2026-10-27">27.10</button>
+                <button class="pill" data-filter="2026-10-28">28.10</button>
+                <button class="pill" data-filter="2026-10-29">29.10</button>
+                <button class="pill" data-filter="BTC">BTC</button>
+                <button class="pill" data-filter="ETH">ETH</button>
+                <button class="pill" data-filter="SOL">SOL</button>
+                <button class="pill" data-filter="Monero">Monero</button>
+            </div>
+        </section>
+
+        <!-- Trades Table -->
+        <section class="table-section">
+            <h2 class="section-title" data-en="All Trades">Wszystkie transakcje</h2>
+            <div class="table-wrapper">
+                <table class="trades-table">
+                    <thead>
+                        <tr>
+                            <th data-sort="id">#</th>
+                            <th data-sort="date" data-en="Date">Data</th>
+                            <th data-sort="time" data-en="Time">Czas</th>
+                            <th data-sort="instrument" data-en="Instrument">Instrument</th>
+                            <th data-sort="side" data-en="Side">Strona</th>
+                            <th data-sort="entry" data-en="Entry">Wejście</th>
+                            <th data-sort="exit" data-en="Exit">Wyjście</th>
+                            <th data-sort="quantity" data-en="Quantity">Ilość</th>
+                            <th data-sort="pnl">P&L</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tradesTableBody">
+                        <!-- Filled by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
