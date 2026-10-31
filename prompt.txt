@@ -1,0 +1,40 @@
+CEL
+Zbuduj statyczną stronę-dashboard 7-dniowego tradingu demo (23.10.2026–29.10.2026) na podstawie 4 plików CSV w /data. Interfejs po polsku (z przełącznikiem PL/EN jak na Bravexo).
+
+TRYB PRACY
+Low effort: nie rozpisuj długich planów, nie czytaj całego repo od nowa, działaj małymi krokami. Nie pytaj mnie o nic, dopóki nie utkniesz.
+
+MODELE (subagenci)
+- Opus 5.5: tylko krótka faza planu: analiza CSV, struktura danych, architektura.
+- Sonnet 5.5: główna implementacja (HTML/CSS/JS, wykresy, logika statystyk).
+- Haiku 5.5: drobne zadania: formatowanie, teksty, sprawdzenie spójności liczb, poprawki CSS.
+
+AGENTIC WORKFLOW
+1. [Opus] Przejrzyj nagłówki i kilka wierszy każdego CSV. Ustal kolumny, format dat, separator, typy. Zapisz krótkie notatki w PLAN.md (maks. 20 linii).
+2. [Sonnet] Napisz skrypt build.js/py, który zamienia CSV na data.js (dane wbudowane w stronę, żeby działała z file:// bez serwera). Przefiltruj dane do zakresu 23–29.10.
+3. [Sonnet] Zbuduj stronę: index.html + style.css + app.js, bez frameworków i bez buildu. Wykresy: Chart.js z CDN.
+4. Po KAŻDYM etapie (dane, layout, wykresy, statystyki, responsywność) uruchom wbudowaną komendę /review. Napraw wszystkie znalezione błędy od razu, potem uruchom /review ponownie, aż będzie czysto. Nie przechodź dalej z niezamkniętymi błędami.
+5. [Haiku] Końcowa kontrola: liczba transakcji i sumy na stronie muszą się zgadzać z CSV (przelicz niezależnie skryptem). Gdy któraś transakcja nie ma wyniku, traktuj ją jako 0,00. Przy rozbieżnościach liczb napraw kod, nie dane.
+6. Na końcu: krótkie podsumowanie (max 10 linii) i jak otworzyć stronę.
+
+ZAWARTOŚĆ DASHBOARDU
+- Nagłówek: eyebrow „DASHBOARD TRADINGU" (wersaliki, rozstrzelone litery, fiolet), duży tytuł „7 dni tradingu", podtytuł z zakresem dat.
+- Karty KPI: łączny wynik (PnL), liczba transakcji, win rate, średni zysk i średnia strata, najlepsza i najgorsza transakcja, max drawdown.
+- Wykres krzywej kapitału w czasie (linia z gradientem).
+- Słupki wyniku dzień po dniu (23–29.10).
+- Podział wyników per instrument (np. BTC, Monero).
+- Filtry w stylu pigułek: Wszystko / per dzień / per instrument.
+- Tabela wszystkich transakcji z sortowaniem, wyniki dodatnie w zieleni, ujemne w czerwieni.
+
+STYL (jak na zdjęciach Bravexo)
+- Tło prawie czarne (#000–#05060a) z subtelną kropkowaną siatką i miękkimi gradientowymi poświatami (granat → teal → fiolet) w tle sekcji.
+- Akcent fioletowy ok. #8b7cf6 / #9d8cff: aktywne pigułki, eyebrow, linki, linie wykresów.
+- Karty: bardzo ciemne, border 1px półprzezroczysty szary, duże zaokrąglenia (20–28px), delikatny glow.
+- Przyciski i filtry: w pełni zaokrąglone pigułki; aktywna fioletowa, główny przycisk jasnoszary (#e8e8e8) z czarnym tekstem, drugi ciemny z obramowaniem.
+- Typografia: geometryczny grotesk (Hanken Grotesk lub Plus Jakarta Sans z Google Fonts), tytuły bardzo pogrubione, tekst pomocniczy szary.
+- Górny pasek: logo (fioletowy znak X) + nazwa, przełącznik PL/EN, ikona słońca (tryb jasny/ciemny), hamburger na mobile.
+- Mobile-first (telefon ~390px), potem tablet i desktop. Animacje delikatne (fade-in, płynne przejścia wykresów).
+
+WYMAGANIA JAKOŚCIOWE
+- Brak błędów w konsoli, dostępny kontrast, formatowanie liczb po polsku (przecinek dziesiętny, spacja tysięcy).
+- Żadnych zewnętrznych zależności poza Chart.js i Google Fonts.

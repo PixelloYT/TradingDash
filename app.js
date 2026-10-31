@@ -54,22 +54,25 @@ function formatCurrency(value) {
     return currentCurrency === 'USD' ? '$' + formatted : formatted + ' PLN';
 }
 
-// Format date in Polish
+// Format date in Polish (parse as local to avoid timezone shift)
 function formatDate(dateStr) {
-    const date = new Date(dateStr);
+    // Parse as YYYY-MM-DD in local timezone
+    const [year, month, day] = dateStr.split('-').map(Number);
+    const date = new Date(year, month - 1, day);
     if (isNaN(date.getTime())) return '—';
-    const day = String(date.getDate()).padStart(2, '0');
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    return `${day}.${month}`;
+    const dayStr = String(date.getDate()).padStart(2, '0');
+    const monthStr = String(date.getMonth() + 1).padStart(2, '0');
+    return `${dayStr}.${monthStr}`;
 }
 
 function formatDateFull(dateStr) {
-    const date = new Date(dateStr);
+    // Parse as YYYY-MM-DD in local timezone
+    const [year, month, day] = dateStr.split('-').map(Number);
+    const date = new Date(year, month - 1, day);
     if (isNaN(date.getTime())) return '—';
-    const day = String(date.getDate()).padStart(2, '0');
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const year = date.getFullYear();
-    return `${day}.${month}.${year}`;
+    const dayStr = String(date.getDate()).padStart(2, '0');
+    const monthStr = String(date.getMonth() + 1).padStart(2, '0');
+    return `${dayStr}.${monthStr}.${year}`;
 }
 
 // Calculate KPIs
@@ -131,10 +134,10 @@ let equityChart, dailyChart, instrumentChart;
 function initEquityChart() {
     const ctx = document.getElementById('equityChart').getContext('2d');
 
-    // Calculate cumulative equity
+    // Calculate cumulative equity in selected currency
     let cumulative = 0;
     const equityData = tradingData.trades.map(trade => {
-        cumulative += (trade.pnl || 0);
+        cumulative += convertCurrency(trade.pnl || 0);
         return cumulative;
     });
 
@@ -212,7 +215,7 @@ function initDailyChart() {
     const ctx = document.getElementById('dailyChart').getContext('2d');
 
     const labels = tradingData.dailySummary.map(d => formatDate(d.date));
-    const data = tradingData.dailySummary.map(d => d.pnl);
+    const data = tradingData.dailySummary.map(d => convertCurrency(d.dailyPnl));
 
     if (dailyChart) dailyChart.destroy();
 
@@ -267,13 +270,13 @@ function initDailyChart() {
 function initInstrumentChart() {
     const ctx = document.getElementById('instrumentChart').getContext('2d');
 
-    // Group by instrument
+    // Group by instrument in selected currency
     const instrumentPnL = {};
     tradingData.trades.forEach(trade => {
         if (!instrumentPnL[trade.instrument]) {
             instrumentPnL[trade.instrument] = 0;
         }
-        instrumentPnL[trade.instrument] += (trade.pnl || 0);
+        instrumentPnL[trade.instrument] += convertCurrency(trade.pnl || 0);
     });
 
     const labels = Object.keys(instrumentPnL);
@@ -347,20 +350,17 @@ function populateTable(trades) {
         const cells = [
             trade.id,
             formatDateFull(trade.date),
-            trade.time,
             trade.instrument,
             trade.side,
-            formatNumber(trade.entry),
-            formatNumber(trade.exit),
-            formatNumber(trade.quantity, 2),
             formatCurrency(pnl)
         ];
 
         cells.forEach((content, index) => {
             const td = document.createElement('td');
-            if (index === 3) td.innerHTML = '<strong></strong>';
-            if (index === 3) td.querySelector('strong').textContent = content;
-            else if (index === 8) {
+            if (index === 2) { // instrument column
+                td.innerHTML = '<strong></strong>';
+                td.querySelector('strong').textContent = content;
+            } else if (index === 4) { // pnl column
                 td.className = pnlClass;
                 td.textContent = content;
             } else {
@@ -486,11 +486,12 @@ function toggleCurrency() {
         currencyBtn.querySelector('.currency-symbol').textContent = currentCurrency;
     }
 
-    // Recalculate and update all displays
+    // Recalculate and update all displays, preserving current filter
     if (typeof tradingData !== 'undefined' && tradingData && tradingData.trades) {
-        const kpis = calculateKPIs(tradingData.trades);
+        const filtered = filterTrades(tradingData.trades);
+        const kpis = calculateKPIs(filtered);
         updateKPIs(kpis);
-        populateTable(filterTrades(tradingData.trades));
+        populateTable(filtered);
 
         // Reinitialize charts with new currency
         initEquityChart();

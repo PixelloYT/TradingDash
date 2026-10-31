@@ -325,6 +325,8 @@ body::after {
 
 .chart-container canvas {
     max-height: 400px;
+    width: 100% !important;
+    height: auto !important;
 }
 
 /* Filters */
@@ -469,6 +471,11 @@ body.light-theme::after {
 
     .chart-container {
         padding: 1.25rem;
+        min-height: 300px;
+    }
+
+    .chart-container canvas {
+        max-height: 300px !important;
     }
 
     .filter-pills {
